@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Tea Navbar Demo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/all.css">
+    <style>
+        .nav{
+            background-color: black;
+        }
+        .mobile-left-btn, .logo{
+            align-self: center;
+        }
+        .fas{
+            font-size: 1.5rem;
+            color: rgba(173, 173, 173, 0.815);
+        }
+        img{
+            height: 50px;
+        }
+        .icon-wrap{
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.685);
+        }
+        a{
+            color: rgb(255, 255, 255);
+            font-size: .9rem;
+        }
+        .language>a{
+            font-size: .8rem;
+        }
+        .nav-link-area a{
+            transition: .5s;
+        }
+        .nav-link-area a:hover{
+            color: rgb(241, 189, 67);
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="container">
+            <div class="row justify-content-between">
+
+                <!-- mobile -->
+                <div class="mobile-left-btn d-block d-xl-none">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="logo">
+                    <img src="https://tw.tp-tea.com/images/logo_h.png" alt="logo">
+                </div>
+                <div class="mobile-right-btn d-block d-xl-none"></div>
+            
+                <!-- web -->
+                <div class="nav-right-btn d-none d-xl-block">
+                    <div class="nav-icon-area d-flex justify-content-end">
+                        <div class="icon-wrap mx-3 my-2">
+                            <i class="fab fa-facebook-square"></i>
+                        </div>
+                        <div class="icon-wrap mx-3 my-2">
+                            <i class="fab fa-line"></i>
+                        </div>
+                        <div class="icon-wrap mx-3 my-2">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="language mx-3 my-2">
+                            <a href="#">繁體版 <span> /</span> </a>
+                            <a href="#">簡體版 <span> /</span> </a>
+                            <a href="#">English </a>
+                        </div>
+                    </div>
+                    <div class="nav-link-area">
+                        <ul class="list-unstyled d-flex">
+                            <li class="mx-3"><a href="#">最新消息</a></li>
+                            <li class="mx-3"><a href="#">瞭解茶湯</a></li>
+                            <li class="mx-3"><a href="#">茶湯點單</a></li>
+                            <li class="mx-3"><a href="#">嚴選食材</a></li>
+                            <li class="mx-3"><a href="#">門市專區</a></li>
+                            <li class="mx-3"><a href="#">加盟專區</a></li>
+                            <li class="mx-3"><a href="#">菁英招募</a></li>
+                            <li class="mx-3"><a href="#">會員卡專區</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
